@@ -5,9 +5,9 @@
 #modificar para aprender
 #Este e o repositorio .
 #saiba mais em [willianjusten.com.br](http://willianjusten.com.br)
-#Gostou do curso quer mais ??
-#estes e para testar.
-#como configurar o git
+
+
+como configurar o git
 gitconfig
 gitconfig usuario
 gitconfig do projeto(São onde guarda a informações.
@@ -80,12 +80,9 @@ git diff
 git diff --name-only(ver so o nome do arquivo e não todos os log)
 
 
-
 git commit -am “<file arquivo”
 Esse git é para quando já exites o arquivo não é a primeira vez que se commita.
-
-
-
+Está errado o -am o a significa adicionar direto, não prescisar fazer o git add
 
 O git para desfazer a ultima inserção é o git checkout.
 
@@ -101,14 +98,11 @@ Ele vai tirar o último ponteiro por isso o HEAD, nÃO VAI APAGAR O QUE VC FEZ M
 COM CHECKOUT OU ENTRAR E APAGAR O QUE FEZ.
 
 
-
 Se vc fez algo errado e quiser voltar o commit, pode-se usar o git reset que tem o soft apaga a ultima coisa e deixa no jeito de commitar de novo,
  o mixed que volta para o modified fora do stange e o hard vai ignorar tudo que foi feito no commit e apagar tudo é o mais bruto.
  TEM QUE ESCOLHER O COMITE ANTERIOR PARA CORRIGIR O QUE SE QUER.
 Observação: usar o git reset --hard somente se ainda não subiu em um repositório remoto onde há mais pessoas trabalhando, pois pode gerar muita confusão.
 
-
 git reset --soft
 git reset --mixed
 git reset --hard
-
