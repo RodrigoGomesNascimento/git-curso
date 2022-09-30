@@ -1,2 +1,30 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 Tutorial de Git e Github
 novos comandos
+https://butecotecnologico.com.br/tutorial-git-e-github/
+
+O link acima é bom para explicar alguns comandos.
+
+https://blog.betrybe.com/git/#1
+Esse também.
+
+crie um novo branch chamado "funcionalidade_x" e selecione-o usando
+
+git checkout -b funcionalidade_x
+
+retorne para o master usando
+
+git checkout master
+
+e remova o branch da seguinte forma
+
+git branch -d funcionalidade_x
+
+um branch não está disponível a outros a menos que você envie o branch para seu repositório remoto
+git push origin <funcionalidade_x>
+https://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+o link acima é top das galáxias
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
