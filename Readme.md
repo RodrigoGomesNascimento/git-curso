@@ -15,11 +15,11 @@ git global.
 
 comando para configurar o user global.
 
-git config --global user.name "RodrigoGomesNascimento"
+git config --global user.name "nome do user"
 
 configurar o e-mail.
 
-git config --global user.email "rgomes.nascimento@gmail.com"
+git config --global user.email "email@uer.com"
 
 
 configurar o editor de mensagens para o commit
